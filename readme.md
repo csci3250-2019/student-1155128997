@@ -22,3 +22,5 @@ Fun facts:
 | Sad  | Angry  |
 # student-1155128997
 # student-1155128997
+
+![alt text](https://github.com/csci3250-2019/student-1155128997/blob/master/pic.png?raw=true "Andy likes cake")
