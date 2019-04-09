@@ -1,0 +1,90 @@
+epo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ 
+Andys-MacBook-Pro-2:repo andynguyen$ echo "# student-1155128997" >> README.md
+Andys-MacBook-Pro-2:repo andynguyen$ git init
+Reinitialized existing Git repository in /Users/andynguyen/Desktop/repo/.git/
+Andys-MacBook-Pro-2:repo andynguyen$ git add README.md
+Andys-MacBook-Pro-2:repo andynguyen$ git commit -m "first commit"
+On branch master
+Changes not staged for commit:
+	modified:   readme.md
+
+no changes added to commit
+Andys-MacBook-Pro-2:repo andynguyen$ git remote add origin https://github.com/csci3250-2019/student-1155128997.git
+fatal: remote origin already exists.
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+Username for 'https://github.com': andynguyen1
+Password for 'https://andynguyen1@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 679 bytes | 679.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/csci3250-2019/student-1155128997.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+To https://github.com/csci3250-2019/student-1155128997.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/csci3250-2019/student-1155128997.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Andys-MacBook-Pro-2:repo andynguyen$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+Unpacking objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From https://github.com/csci3250-2019/student-1155128997
+   86f8566..f2312ab  master     -> origin/master
+Updating 86f8566..f2312ab
+Fast-forward
+ stuff | 25 +++++++++++++++++++++++++
+ 1 file changed, 25 insertions(+)
+ create mode 100644 stuff
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+Andys-MacBook-Pro-2:repo andynguyen$ git add .
+Andys-MacBook-Pro-2:repo andynguyen$ git psh -u origin master
+git: 'psh' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+Andys-MacBook-Pro-2:repo andynguyen$ git commit
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+Andys-MacBook-Pro-2:repo andynguyen$ git committ -m "Andy likes cake"
+git: 'committ' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+Andys-MacBook-Pro-2:repo andynguyen$ git commit -m "Andy likes cake"
+[master 7a8f2f9] Andy likes cake
+ 2 files changed, 2 insertions(+)
+ create mode 100644 pic.png
+Andys-MacBook-Pro-2:repo andynguyen$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 303.45 KiB | 18.97 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/csci3250-2019/student-1155128997.git
+   f2312ab..7a8f2f9  master -> master
+Andys-MacBook-Pro-2:repo andynguyen$ 
