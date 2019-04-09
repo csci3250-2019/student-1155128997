@@ -1,0 +1,25 @@
+Andys-MacBook-Pro-2:repo andynguyen$ echo "# student-1155128997" >> README.md
+Andys-MacBook-Pro-2:repo andynguyen$ git init
+Reinitialized existing Git repository in /Users/andynguyen/Desktop/repo/.git/
+Andys-MacBook-Pro-2:repo andynguyen$ git add README.md
+Andys-MacBook-Pro-2:repo andynguyen$ git commit -m "first commit"
+On branch master
+Changes not staged for commit:
+	modified:   readme.md
+
+no changes added to commit
+Andys-MacBook-Pro-2:repo andynguyen$ git remote add origin https://github.com/csci3250-2019/student-1155128997.git
+fatal: remote origin already exists.
+Andys-MacBook-Pro-2:repo andynguyen$ git push -u origin master
+Username for 'https://github.com': andynguyen1
+Password for 'https://andynguyen1@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 679 bytes | 679.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/csci3250-2019/student-1155128997.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Andys-MacBook-Pro-2:repo andynguyen$ 
